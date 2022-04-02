@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es6",
         "lib": [
             "DOM",
             "DOM.Iterable",
@@ -12,18 +12,12 @@
         "jsx": "react",
         "rootDir": "src",
         "paths": {
-            "@/*": [
-                "*"
-            ]
+            "@/*": ["*"]
         },
         "baseUrl": "src",
         "allowJs": true,
-        "skipLibCheck": true,
-        "allowSyntheticDefaultImports": true,
         "strict": false,
-        "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
-        "noEmit": true
     },
     "include": [
         "src"
