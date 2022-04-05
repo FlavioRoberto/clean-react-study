@@ -23,7 +23,7 @@ module.exports = {
                 exclude: /node_modules/
             },
             {
-                test: /\.scss/,
+                test: /\.(s?)css$/,
                 use: [
                     {
                         loader: 'style-loader'
@@ -31,7 +31,7 @@ module.exports = {
                     {
                         loader: 'css-loader',
                         options: {
-                            module: true
+                            esModule: true
                         }
                     },
                     {
