@@ -1,0 +1,10 @@
+@import '../../styles/colors.scss';
+
+.link {
+    color: $primary;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

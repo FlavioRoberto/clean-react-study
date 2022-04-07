@@ -1,4 +1,6 @@
 import React from 'react';
+import Spiner from '@/presentation/components/spinner/spinner';
+import Link from '@/presentation/components/link/link';
 import './login-style.scss';
 
 const Login: React.FC = () => {
@@ -27,7 +29,11 @@ const Login: React.FC = () => {
           <span className='status'>🔴</span>
         </div>
         <button type='submit'>Entrar</button>
-        <span className='link center mt-1'>Criar conta</span>
+        <Link description='Criar conta' />
+        <div className='errorwrap'>
+          <span className='error'>Erro</span>
+          <Spiner />
+        </div>
       </form>
       <footer />
     </div>
