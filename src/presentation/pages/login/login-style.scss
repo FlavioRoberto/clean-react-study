@@ -36,28 +36,6 @@ button {
     }
 }
 
-.inputwrap {
-    display: flex;
-    flex-direction: row;
-    margin: 0.5em 0em;
-    position: relative;
-    align-items: center;
-
-    input {
-        padding: 0.5em;
-        padding-right: 2em;
-        flex-grow: 1;
-    }
-
-    .status {
-        margin-right: 0.5em;
-        right: 0;
-        position: absolute;
-        font-size: 12px;
-        cursor: help;
-    }
-}
-
 .center {
     display: flex;
     flex-direction: row;
