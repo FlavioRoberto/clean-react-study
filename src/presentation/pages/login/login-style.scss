@@ -48,21 +48,6 @@ button {
     }
 }
 
-.errorwrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .error {
-        margin-top: 1em;
-        color: $primaryLight
-    }
-
-    .spinner {
-        margin-top: 1em;
-    }
-}
-
 .login {
     display: flex;
     flex-direction: column;
