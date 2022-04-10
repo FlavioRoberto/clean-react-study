@@ -2,15 +2,13 @@ import React from 'react';
 import './login-style.scss';
 import Spiner from '@/presentation/components/spinner/spinner';
 import Link from '@/presentation/components/link/link';
-import Logo from '@/presentation/components/logo/logo';
+import Header from '@/presentation/components/login-header/login-header';
+import Footer from '@/presentation/components/footer/footer';
 
 const Login: React.FC = () => {
   return (
     <div className='login'>
-      <header>
-        <Logo />
-        <h1>CleanReact</h1>
-      </header>
+      <Header />
       <form>
         <h2>Login</h2>
         <div className='inputwrap'>
@@ -33,7 +31,7 @@ const Login: React.FC = () => {
           <Spiner />
         </div>
       </form>
-      <footer />
+      <Footer />
     </div>
   );
 };
